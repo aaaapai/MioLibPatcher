@@ -29,8 +29,6 @@ public class MainAgent {
         transformers.add(new LibraryTransformer());
         transformers.add(new SystemInfoTransformer());
         transformers.add(new RandomPatchesTransformer());
-        transformers.add(new ProcessorIdentifierTransformer());
-        transformers.add(new CentralProcessor());
         transformers.add(new SodiumLikeModTransformer());
         transformers.add(new SQLTransformer());
         transformers.add(new FabricLoaderTransformer());
