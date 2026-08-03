@@ -22,7 +22,7 @@ jobs:
         with:
           add-job-summary: "on-failure"
 
-      - name: Build APK for ${{ matrix.arch }}
+      - name: Build
         run: |
           chmod +x gradlew
           ./gradlew build
