@@ -1,6 +1,7 @@
 name: Build
 
 on:
+  push:
   workflow_dispatch:
 
 jobs:
@@ -33,4 +34,4 @@ jobs:
         with:
           name: miolibfixer
           path: |
-                **/*mio*.jar
+                **/*.jar
